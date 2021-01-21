@@ -12,3 +12,4 @@ target/classes/*
 *.class
 /target
 .idea/
+/src/test/*
