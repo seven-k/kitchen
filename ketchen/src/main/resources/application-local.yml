@@ -1,0 +1,10 @@
+spring:
+#  profiles:
+#    active: local
+  datasource:
+    name: kitchen
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/myPgdb?stringtype=unspecified
+    password: admin
+    username: postgres
